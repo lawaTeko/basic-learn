@@ -50,10 +50,34 @@ body{
     color: #333;
 }
 
+.top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: #333;
+	border-bottom: 3px solid rgb(114, 250, 121);
+	z-index: 999;
+}
+
 .container{
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
     background-color: white;
+	position: relative;
+}
+
+.facebook{
+	width: 200px;
+	height: 200px;
+	background-image: url(img/facebook.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 2px;
+	right: -153px;
 }
 
 .header{
@@ -72,7 +96,7 @@ body{
 .header ul li{
 	display: inline-block;
 	margin-top: 20px;
-	margin-right: 5px;
+	margin-right: 20px;
 }
 
 .header a{
